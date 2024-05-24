@@ -4,7 +4,8 @@ import random
 class AppController:
     def __init__(self, view):
         self.view = view
-        self.tips = ["Tip 1: Regularly review new words.", "Tip 2: Use words in sentences.", "Tip 3: Practice daily."]
+        self.tips = ["Tip 1: Regularly review new words.", 
+                     "Tip 2: Use words in sentences.", "Tip 3: Practice daily."]
         self.word_count = 4 # Sample word count
     
     def get_random_tip(self):

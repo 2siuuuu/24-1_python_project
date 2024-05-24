@@ -1,6 +1,6 @@
 import tkinter as tk
-from controllers import AppController
-# 0224 변경
+from app_controller import AppController
+
 class MainView:
     def __init__(self, root):
         self.root = root

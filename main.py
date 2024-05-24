@@ -1,3 +1,6 @@
+print("hello")
+# 디벨롭에 있어야 함
+
 my_dict = {}
 def print_menu():
     print("무엇을 할까요?")
@@ -31,3 +34,4 @@ while True:
         break
     else:
         print("잘못 입력 하였습니다. 다시 입력해 주세요")
+

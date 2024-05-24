@@ -1,5 +1,5 @@
 import tkinter as tk
-from controllers import AppController
+from app_controller import AppController
 
 class MainView:
     def __init__(self, root):

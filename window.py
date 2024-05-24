@@ -13,10 +13,19 @@ def window_setup():
 def reveal_messagebox():
     messagebox.showinfo("왜 눌러", "나가라")
 
+def chk_func():
+    if chk.get() == 0:
+        messagebox.showinfo("", "아 저리가")
+    else :
+        messagebox.showinfo("", "아 다시 와봐")
+
 #---------------------------------------------------------
 
 TEST_Button = Button(mainscreen, text="TEST!", command= reveal_messagebox)
 TEST_Button.pack()
+
+chk =IntVar()
+cb1 = Checkbutton(mainscreen, text="누르지마", variable=chk, command=)
 
 window_setup()
 

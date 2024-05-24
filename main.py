@@ -1,5 +1,5 @@
 print("hello")
-# 디벨롭에 있어야 함
+# 디벨롭에 모든 것 추가
 
 my_dict = {}
 def print_menu():

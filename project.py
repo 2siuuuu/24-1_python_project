@@ -12,7 +12,7 @@ st.title("Chatbot powered by Bedrock")
 
 st.button("Start!", type="primary")
 
-
+# d
 # 새로고침 == 새로 접속
 if "messages" not in st.session_state:
     st.session_state.messages = []
